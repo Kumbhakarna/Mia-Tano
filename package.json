@@ -1,0 +1,25 @@
+{
+  "name": "mia-tano",
+  "version": "0.0.0",
+  "description": "Mia-Tano",
+  "main": "server.js",
+  "author": "Rashon",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "httpdispatcher": "^2.0.1",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumbhakarna/Mia-Tano.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kumbhakarna/Mia-Tano/issues"
+  },
+  "homepage": "https://github.com/Kumbhakarna/Mia-Tano#readme"
+}

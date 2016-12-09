@@ -1,0 +1,2 @@
+C:\Users\Rashon\Documents\Github\Mia-Tano\obj\Debug\Mia-Tano.njsprojResolveAssemblyReference.cache
+C:\Users\Rashon\Documents\Github\Mia-Tano\bin\Microsoft.NodejsTools.WebRole.dll
