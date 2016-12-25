@@ -2,18 +2,38 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="/index.css"> 
-    This is the index!
+    <link rel="stylesheet" href="/index.css">
     <style></style>
     <title></title>
 </head>
-<body onResize="refresh()" >
+<body onResize="refresh()">
     <script>
         function refresh() { location.reload(); }
     </script>
-    <h1>Welcome!</h1>
     <div class="poster">
-    <img src="poster.png"  alt="Poster">
+        <img src="poster.png" alt="Poster">
+    </div>
+    <div class="box">
+        <img src="box.png" alt="Box">
+    </div>
+    <div class="box_high" onclick="document.location = this.id + 'hello.html';">
+        <img src="Box_highlight.png" alt="Box">
+    </div>
+    <div class="table">
+        <img src="table.png" alt="table">
+    </div>
+    <div class="machine">
+        <img src="machine.png" alt="machine">
+    </div>
+    <div class="machineON">
+        <img src="machineON.png" alt="machineON">
+    </div>
+    <div class="window">
+        <img src="window.png" alt="window">
+    </div>
+
+    <div class="mailbox">
+        <img src="mailopen.png" alt="mailbox">
     </div>
 </body>
 </html>

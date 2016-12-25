@@ -1,11 +1,34 @@
 ﻿<!DOCTYPE html>
+
 <html>
 <head>
-    This is in html
-    <style></style>
+    <link rel="stylesheet" href="/hello.css">
     <title></title>
 </head>
-<body>
-    <h1>Welcome!</h1>
+<body onResize="refresh()">
+    <script>
+        function refresh() { location.reload(); }
+    </script>
+    <div class="accountIcon">
+        <img src="AccountIcon.png" alt="Account" />
+    </div>
+    <div class="coinIcon">
+        <img src="CoinIcon.png" alt="Coin" />
+    </div>
+    <div class="levelText">
+        <a >Level:</a>
+    </div>
+    <div >
+        <button class="backButton" onclick="document.location = this.id + 'index.html';">
+            Go back
+        </button>
+    </div>
+
+    <div class="levelIcon">
+        <img src="LevelIcon.png" alt="LevelIcon" />
+    </div>
+    <div class="level">
+        <a>16</a>
+    </div>
 </body>
 </html>

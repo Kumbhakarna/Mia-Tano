@@ -1,0 +1,58 @@
+﻿body {
+    background: url(AccountBackground.png);
+    border: none;
+    background-size: 100%, 100%;
+}
+
+.coinIcon {
+    position:absolute;
+    left: 1000px;
+    top: 50px;
+}
+
+.levelText {
+    position:absolute;
+    left: 100px;
+    top: 500px; 
+    font-family: 'Javanese Text';
+    font-size: 72px;
+   
+}
+.backButton {
+    position: absolute;
+    top: 650px;
+    left: 700px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.level {
+    position:absolute;
+    left: 340px;
+    top: 510px; 
+    font-family: 'Javanese Text';
+    font-size: 72px;
+    color:yellow;
+}
+.coinCount {
+
+}
+.levelIcon {
+    position: absolute;
+    left: 300px;
+    top: 500px;
+}
+
+.accountIcon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}

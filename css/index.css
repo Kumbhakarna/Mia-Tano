@@ -1,0 +1,91 @@
+﻿body {
+    background: url(/background.png);
+    background-repeat: repeat-y;
+    background-size: 100%, 100%;
+    background-position-y: -100px;
+
+}
+
+.poster {
+    position: absolute;    
+    left: 620px;
+    top: 250px;
+    max-width: 70%;
+    max-height: 70%;
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.poster:hover {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border: 3px solid yellow;
+}
+.box_high {
+    visibility: hidden;
+    position: absolute;
+    left: 1000px;
+    top: 560px;
+}
+
+.box:hover + .box_high {
+    visibility: visible;
+}
+.box {
+    position: absolute;
+    left: 1000px;
+    top: 560px;
+}
+
+.box_high:hover {
+    visibility: visible;
+}
+.table {
+    position: absolute;
+    left: 90px;
+    top: 516px;
+}
+
+.machine {
+    visibility: visible;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+.machine:hover ~ .machineON{
+    visibility: visible;
+}
+.machineON { 
+    visibility:hidden;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+
+.machineON:hover {
+    visibility: visible;
+}
+
+.window {
+    position: absolute;
+    left: 1200px;
+    top: 250px;
+}
+
+.window:hover ~ .mailbox {
+    visibility: visible;
+}
+
+.mailbox {
+    visibility: hidden;
+    position: absolute;
+    left: 1253px;
+    top: 340px;
+}
+
+.mailbox:hover {
+    visibility: visible;
+}
+
+
